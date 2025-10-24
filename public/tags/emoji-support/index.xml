@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emoji Support on Blog lập trình - Lê Văn Toàn</title>
+    <link>http://localhost:1313/tags/emoji-support/</link>
+    <description>Recent content in Emoji Support on Blog lập trình - Lê Văn Toàn</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Apr 2021 22:53:58 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/emoji-support/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Khai báo phương thức overloading trong Java</title>
+      <link>http://localhost:1313/blogs/emoji-support/</link>
+      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/emoji-support/</guid>
+      <description>&lt;p&gt;Trong lập trình hướng đối tượng, overloading là một khái niệm quan trọng và được sử dụng rộng rãi trong ngôn ngữ lập trình Java. Nó cho phép chúng ta định nghĩa nhiều phương thức có cùng tên nhưng khác nhau về tham số, giúp tăng tính linh hoạt và tái sử dụng mã trong chương trình.&lt;/p&gt;&#xA;&lt;p&gt;Quá tải (overloading) trong Java là gì?&#xA;Quá tải (overloading) là khả năng định nghĩa nhiều phương thức có cùng tên nhưng khác nhau về tham số trong cùng một lớp hoặc lớp con. Khi gọi đến một phương thức quá tải, trình biên dịch sẽ tự động chọn phương thức phù hợp dựa trên các tham số thực tế được cung cấp. Điều này giúp cho chương trình trở nên linh hoạt hơn, có thể thực hiện một hành động cụ thể theo nhiều cách khác nhau bằng cách thay đổi các tham số.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

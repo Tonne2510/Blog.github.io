@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathjax on Blog lập trình - Lê Văn Toàn</title>
+    <link>http://localhost:1313/tags/mathjax/</link>
+    <description>Recent content in Mathjax on Blog lập trình - Lê Văn Toàn</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mathjax/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Super là gì? Sự khác biệt giữa Java Super và Java thông thường</title>
+      <link>http://localhost:1313/blogs/math/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/math/</guid>
+      <description>&lt;p&gt;Trong quá trình phát triển, Java đã được mở rộng với nhiều tính năng và nâng cấp mới, bao gồm cả sự ra đời của Java Super. Trong bài viết này, hãy cùng TopDev khám phá Java Super là gì, các tính năng nổi bật, sự khác biệt giữa Java Super và Java thông thường một cách chi tiết.&lt;/p&gt;&#xA;&lt;p&gt;Tìm hiểu về Java Super&#xA;Java Super là một phiên bản nâng cao của ngôn ngữ lập trình Java được phát triển bởi Oracle. Nó cung cấp một loạt các tính năng mạnh mẽ và cải tiến không có sẵn trong Java thông thường, bao gồm tăng cường khả năng bảo mật, hiệu suất cao hơn và hỗ trợ tốt hơn cho các ứng dụng và dịch vụ dựa trên đám mây.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

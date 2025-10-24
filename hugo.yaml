@@ -1,0 +1,391 @@
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "Blog lập trình - Lê Văn Toàn"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+#services:
+  #googleAnalytics:
+    #id: G-MEASUREMENT_ID
+  #disqus:
+    #shortname: your-disqus-shortname
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
+    - identifier: gallery
+      name: Gallery
+      title: Blog posts
+      url: /gallery
+      weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Blog lập trình - Lê Văn Toàn"
+  description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "fav.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Blog lập trình - Lê Văn Toàn" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Chào, tên tôi là"
+    title: "Lê Văn Toàn"
+    subtitle: "Học Java và JavaScript"
+    content: "Tôi là một lập trình viên web đam mê sáng tạo, yêu thích việc ứng dụng các công nghệ web hiện đại để xây dựng những trang web có giao diện tinh tế, trải nghiệm mượt mà và hiệu năng tối ưu."
+    image: /images/me3.jpg
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/Tonne2510
+        - icon: fab fa-x-twitter
+          url: https://example.com
+      customIcons:
+        - icon: Facebook-logo.png
+          url: "https://www.facebook.com/levantoan.toan.14/"
+
+  # About
+  about:
+    enable: true
+    title: "Về tôi"
+    image: "/images/me5.jpg"
+    content: |-
+      Tôi là một lập trình viên phần mềm với niềm đam mê đặc biệt dành cho phát triển web. Xuất thân từ khoa học máy tính và toán học, tôi luôn hứng thú khám phá sự giao thoa giữa công nghệ và nghệ thuật — nơi mà logic và sáng tạo cùng hòa quyện. Hiện tại, tôi đang Học ở Hutech, với vai trò Software Developer. Một vài công nghệ tôi sử dụng gần đây bao gồm:
+
+      
+    skills:
+      enable: true
+      title: ""
+      items:
+        - "HTML"
+        - "CSS"
+        - "JavaScript"
+        - "React"
+        - "Node"
+        - "Express"
+
+  # Kinh nghiệm
+  experience:
+    enable: true
+    title: "Kinh nghiệm"
+    items:
+      - company: "Phân tích"
+        companyUrl: ""
+        jobs:
+          - name: "Phân tích"
+            date: ""
+            content: "Có khả năng phân tích yêu cầu, xác định lỗi, và đưa ra giải pháp tối ưu cho các vấn đề kỹ thuật phức tạp. Hiểu sâu về cấu trúc dữ liệu, thuật toán, và tư duy logic để viết code hiệu quả, dễ bảo trì.."
+            info:
+              content: 
+            featuredItems:
+              fontAwesomeIcons:
+                - icon: 
+                  url: 
+                  tooltip: 
+                - icon: 
+                  url: 
+                  # tooltip: Example tooltip content
+              customIcons:
+                - icon: 
+                  url: 
+                  tooltip:
+          - name: ""
+            date: ""
+            content: ""
+
+      - company: "Front-end và Back-end"
+        companyUrl: ""
+        jobs:
+          - name: "Kinh nghiệm"
+            date: ""
+            info:
+              content: 
+            content: |
+              Thành thạo trong việc xây dựng giao diện người dùng (UI) thân thiện, hiệu năng cao, và xử lý dữ liệu phía server mượt mà. Có kinh nghiệm với HTML, CSS, JavaScript, React, Node.js, hoặc các framework tương tự.
+
+      - company: "Quản lý mã nguồn"
+        companyUrl: ""
+        jobs: 
+        - name: "Junior Software Developer"
+          date: ""
+          featuredItems:
+            fontAwesomeIcons:
+              - icon: 
+                url: 
+              - icon: 
+                url: 
+            customIcons:
+              - icon: 
+                url: 
+          content: |
+            Sử dụng thành thạo Git/GitHub để quản lý phiên bản, phối hợp nhóm và triển khai sản phẩm. Hiểu quy trình CI/CD, Docker, hoặc Netlify/GitHub Pages để tự động hóa build và release.
+
+      - company: "Học hỏi"
+        companyUrl: ""
+        jobs:
+        - name: "Cập nhật công nghệ"
+          date: ""
+          content: |
+            Luôn theo dõi xu hướng công nghệ mới (framework, ngôn ngữ, AI, DevOps…) và tự học liên tục để nâng cao kỹ năng. Có tư duy phát triển bản thân lâu dài, không ngừng cải thiện code và quy trình làm việc.
+
+      - company: "Tư duy sản phẩm"
+        companyUrl: ""
+        jobs:
+        - name: "Tư duy"
+          date: ""
+          content: "Hiểu rằng mỗi dòng code đều hướng đến giá trị cho người dùng. Biết cân bằng giữa kỹ thuật và trải nghiệm thực tế, tạo ra sản phẩm ổn định, thân thiện và hữu ích."
+
+  # Education
+  education:
+    enable: true
+    title: "Học vấn"
+    index: false
+    items:
+      - title: "Kỹ sư Công Nghệ Phần Mềm"
+        school:
+          name: "Đại học Công Nghệ TP.HCM (HUTECH)"
+          url: "https://www.hutech.edu.vn/"
+        date: "2022 - 2026"
+        GPA: "3.5 out of 4.0"
+        content: |-
+          Tôi luôn tin rằng lập trình không chỉ là công việc mà còn là cách để kết nối và chia sẻ tri thức. Trong quá trình học tập và làm việc, tôi đã tham gia nhiều hoạt động giúp rèn luyện kỹ năng mềm và mở rộng góc nhìn công nghệ, bao gồm:
+            - Thành viên cộng đồng lập trình viên địa phương, chia sẻ kiến thức về web, Java, và JavaScript.
+            - Tình nguyện hướng dẫn sinh viên mới trong việc học lập trình cơ bản và xây dựng dự án thực tế.
+            - Viết blog cá nhân để chia sẻ kinh nghiệm học tập, các bài hướng dẫn và mẹo kỹ thuật cho cộng đồng dev Việt.
+      
+
+  # Achievements
+  achievements:
+    enable: true
+    title: "Thành tựu"
+    items:
+      - title: JavaScript Essentials 1
+        content: 
+        url: https://www.credly.com/users/3298_le-van-toan-tonne/edit#credly
+        image: /images/cisco1.png
+      - title: JavaScript Essentials 2
+        url: "https://www.credly.com/users/3298_le-van-toan-tonne/edit#credly"
+        content: 
+        image: /images/cisco2.png
+      - title: Networking Basics
+        content: 
+        url: "https://www.credly.com/users/3298_le-van-toan-tonne/edit#credly"
+        image: /images/cisco3.png
+      
+
+  # projects
+  projects:
+    enable: true
+    title: "Dự án"
+    items:
+      - title: Hugo Profile
+        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+        image: /images/projects/profile.png
+        featured:
+          name: Demo
+          link: https://hugo-profile.netlify.app
+        badges:
+          - "Hugo"
+          - "Bootstrap"
+          - "Javascript"
+        links:
+          - icon: fa fa-envelope
+            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/hugo-profile
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: Image Converter
+        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+        image: /images/projects/converter.jpg
+        featured:
+          name: Demo
+          link: https://django-converter.herokuapp.com
+        badges:
+          - "Django"
+          - "Bootstrap"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/converter
+
+      - title: Hugo Profile V2
+        content: A clean and simple Hugo template for personal portfolio and blog.
+        image: /images/projects/profile2.jpg
+        featured:
+          name: Demo V2
+          link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Hugo"
+          - "Bootstrap"
+          - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/HugoProfileV2
+
+  #Contact
+  contact:
+    enable: true
+    title: "Liên hệ"
+    content: Hộp thư của tôi luôn mở! Dù bạn có câu hỏi, muốn trao đổi về dự án, hay đơn giản chỉ muốn nói lời chào, tôi luôn sẵn lòng lắng nghe và sẽ cố gắng phản hồi sớm nhất có thể.
+    btnName: Mail me
+    btnLink: mailto:levantoan251004@gmail.com
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com
+      linkedin: https://linkedin.com
+      twitter: https://twitter.com
+      instagram: https://instagram.com
+      facebook: https://facebook.com
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
