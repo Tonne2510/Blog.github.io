@@ -1,5 +1,5 @@
-baseURL: "https://hugo-profile.netlify.app"
-languageCode: "en-us"
+baseURL: "https://github.com/Tonne2510/Blog.github.io.git"
+canonifyURLs: true
 title: "Blog lập trình - Lê Văn Toàn"
 theme: hugo-profile
 
@@ -353,11 +353,11 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
+      github: https://github.com/Tonne2510
       linkedin: https://linkedin.com
       twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      instagram: https://www.instagram.com/lvtne_/
+      facebook: https://www.facebook.com/levantoan.toan.14/
 
   # List pages like blogs and posts
   listPages:

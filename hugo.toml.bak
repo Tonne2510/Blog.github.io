@@ -1,3 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = "https://github.com/Tonne2510/Blog.github.io.git"
+canonifyURLs = true
 languageCode = 'en-us'
 title = 'My New Hugo Site'
