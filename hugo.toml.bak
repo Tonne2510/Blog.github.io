@@ -1,4 +1,6 @@
-baseURL = "https://github.com/Tonne2510/Blog.github.io.git"
+baseURL = "https://tonne2510.github.io/Blog.github.io/"
+relativeURLs = true
 canonifyURLs = true
+
 languageCode = 'en-us'
 title = 'My New Hugo Site'

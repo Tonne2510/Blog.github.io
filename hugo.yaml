@@ -1,4 +1,5 @@
-baseURL: "https://github.com/Tonne2510/Blog.github.io.git"
+baseURL: "https://tonne2510.github.io/Blog.github.io/"
+relativeURLs: true
 canonifyURLs: true
 title: "Blog lập trình - Lê Văn Toàn"
 theme: hugo-profile
